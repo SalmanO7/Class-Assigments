@@ -26,27 +26,27 @@ const FlexBox = () => {
       </div>
 
       <div className="flex justify-around items-center px-2 gap-3 sm:px-4 md:px-8 mt-7">
-        <div className="">
-          <Image src={CardImg1} alt="Home img" className="w-[100%] md:h-[300px]" />
+        <div className="shadow-2xl p-2 rounded-lg">
+          <Image src={CardImg1} alt="Home img" className="w-[100%] md:h-[300px] rounded-xl " />
           <p  className="text-sm sm:text-base md:text-xl">Network Programmability </p>
         </div>
-        <div className="  ">
-          <Image src={CardImg4} alt="Home img" className="w-[100%] md:h-[300px]" />
+        <div className="shadow-2xl p-2 rounded-lg">
+          <Image src={CardImg4} alt="Home img" className="w-[100%] md:h-[300px] rounded-xl " />
           <p className="text-sm sm:text-base md:text-xl">Program Fundamentals</p>
         </div>
       </div>
 
       <div className="flex justify-around items-center gap-3 px-2 sm:px-4 md:px-8 mt-7">
-        <div className="">
-          <Image src={CardImg2} alt="Home img" className="w-[100%] md:h-[300px]" />
+        <div className="shadow-2xl p-2 rounded-lg">
+          <Image src={CardImg2} alt="Home img" className="w-[100%] md:h-[300px] rounded-xl " />
           <p  className="text-sm sm:text-base md:text-xl">Network Programmability </p>
         </div>
-        <div className="  ">
-          <Image src={CardImg3} alt="Home img" className="w-[100%] md:h-[300px]" />
+        <div className="shadow-2xl p-2 rounded-lg">
+          <Image src={CardImg3} alt="Home img" className="w-[100%] md:h-[300px] rounded-xl " />
           <p className="text-sm sm:text-base md:text-xl">Programming Fundamentals</p>
         </div>
-        <div className="  ">
-          <Image src={CardImg1} alt="Home img" className="w-[100%] md:h-[300px]" />
+        <div className="shadow-2xl p-2 rounded-lg">
+          <Image src={CardImg1} alt="Home img" className="w-[100%] md:h-[300px] rounded-xl " />
           <p className="text-sm sm:text-base md:text-xl">Artificial Intelligence </p>
         </div>
       </div>
