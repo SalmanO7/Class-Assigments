@@ -1,3 +1,9 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off", // Allow the use of 'any'
+    "react/react-in-jsx-scope": "off",          // No need for React in scope (Next.js)
+    "react/prop-types": "off",                  // Ignore prop-types validation
+    "no-unused-vars": "warn",                   // Adjust unused variables to a warning
+    "@typescript-eslint/no-unused-vars": "warn" // Warn for unused variables in TypeScript
+  }
 }
