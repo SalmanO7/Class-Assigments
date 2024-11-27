@@ -27,7 +27,7 @@ export default function Home({ classWork }: any) {
         <h1 className="text-lg sm:text-2xl md:text-3xl font-bold mx-4">
           Sunday 11th Class Assigment Complete
         </h1>
-        <div className="flex flex-col justify-center items-start pl-16 py-8">
+        <div className="flex flex-col justify-center items-start pl-4 md:pl-16 py-8">
           <div>
             Name:{" "}
             <span className="font-bold text-green-500">
