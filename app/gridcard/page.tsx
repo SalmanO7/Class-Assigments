@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-// import HomeImg from "@/app/assets/Logo.png";
 import CardImg1 from "@/app/assets/automation.jpg";
 import CardImg2 from "@/app/assets/media.jpg";
 import CardImg3 from "@/app/assets/programming.jpg";
@@ -43,12 +42,16 @@ const FlexBox = () => {
       </div>
 
       <div>
-        <p className="text-center py-2"> Class 09 Card Assigment with FlexBox</p>
+        <p className="text-center text-sm sm:text-base py-2">
+          1. Make Responsive Product Card Component. <br />
+          2. On lg devices there should be 3 card per row. <br />
+          3. On md devices there should be 2 card perrow.
+          <br /> 4. On sm devices there should be 1 card per row. <br />
+        </p>
       </div>
-      {/* <Image src={HomeImg} alt="Home Image" className="w-[300px] h-[300px]" /> */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 md:p-10">
         {CardData.map((card) => (
-          <div key={card.title} className="shadow-2xl p-1 md:p-2 rounded-md">
+          <div key={card.title} className="shadow-2xl p-2 md:p-4 rounded-md">
             <Image
               src={card.img}
               alt={card.title}

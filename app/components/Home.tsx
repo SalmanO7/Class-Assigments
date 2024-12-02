@@ -23,6 +23,14 @@ export default function Home({ classWork }: any) {
           FlexBox Assigment
         </Link>
       </div>
+      <div className="flex  gap-3 my-4">
+        <Link
+          href="/gridcard"
+          className="bg-green-600 hover:bg-green-800 text-white rounded-lg py-3 px-5"
+        >
+          Class 10 Assigment
+        </Link>
+      </div>
       <div className="mt-10">
         <h1 className="text-lg sm:text-2xl md:text-3xl font-bold mx-4">
           Sunday 11th Class Assigment Complete
